@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8005F1F418CAD9AB001059D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F1F318CAD9AB001059D7 /* Foundation.framework */; };
+		8005F1F618CAD9AB001059D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F1F518CAD9AB001059D7 /* CoreGraphics.framework */; };
+		8005F1F818CAD9AB001059D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F1F718CAD9AB001059D7 /* UIKit.framework */; };
+		8005F1FE18CAD9AB001059D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8005F1FC18CAD9AB001059D7 /* InfoPlist.strings */; };
+		8005F20018CAD9AB001059D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005F1FF18CAD9AB001059D7 /* main.m */; };
+		8005F20418CAD9AB001059D7 /* DKTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005F20318CAD9AB001059D7 /* DKTAppDelegate.m */; };
+		8005F20718CAD9AB001059D7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8005F20518CAD9AB001059D7 /* Main_iPhone.storyboard */; };
+		8005F20A18CAD9AB001059D7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8005F20818CAD9AB001059D7 /* Main_iPad.storyboard */; };
+		8005F20D18CAD9AB001059D7 /* DKTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005F20C18CAD9AB001059D7 /* DKTMasterViewController.m */; };
+		8005F21018CAD9AB001059D7 /* DKTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8005F20F18CAD9AB001059D7 /* DKTDetailViewController.m */; };
+		8005F21218CAD9AB001059D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8005F21118CAD9AB001059D7 /* Images.xcassets */; };
+		8005F21918CAD9AB001059D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F21818CAD9AB001059D7 /* XCTest.framework */; };
+		8005F21A18CAD9AB001059D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F1F318CAD9AB001059D7 /* Foundation.framework */; };
+		8005F21B18CAD9AB001059D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8005F1F718CAD9AB001059D7 /* UIKit.framework */; };
+		8005F22318CAD9AB001059D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8005F22118CAD9AB001059D7 /* InfoPlist.strings */; };
+		8030E4AE18CAF62200BFE9DF /* DKTSampleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8030E4AD18CAF62200BFE9DF /* DKTSampleSpec.m */; };
+		DE4819B184334D859203A1F7 /* libPods-KiwiTesterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE3FE1AFEDD4295AD754C9F /* libPods-KiwiTesterTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8005F21C18CAD9AB001059D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8005F1E818CAD9AB001059D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8005F1EF18CAD9AB001059D7;
+			remoteInfo = KiwiTester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59B4240B56D949A09797D7B2 /* Pods-KiwiTesterTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiTesterTests.xcconfig"; path = "Pods/Pods-KiwiTesterTests.xcconfig"; sourceTree = "<group>"; };
+		8005F1F018CAD9AB001059D7 /* KiwiTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005F1F318CAD9AB001059D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8005F1F518CAD9AB001059D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8005F1F718CAD9AB001059D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8005F1FB18CAD9AB001059D7 /* KiwiTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTester-Info.plist"; sourceTree = "<group>"; };
+		8005F1FD18CAD9AB001059D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8005F1FF18CAD9AB001059D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8005F20118CAD9AB001059D7 /* KiwiTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiTester-Prefix.pch"; sourceTree = "<group>"; };
+		8005F20218CAD9AB001059D7 /* DKTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTAppDelegate.h; sourceTree = "<group>"; };
+		8005F20318CAD9AB001059D7 /* DKTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTAppDelegate.m; sourceTree = "<group>"; };
+		8005F20618CAD9AB001059D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8005F20918CAD9AB001059D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8005F20B18CAD9AB001059D7 /* DKTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTMasterViewController.h; sourceTree = "<group>"; };
+		8005F20C18CAD9AB001059D7 /* DKTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTMasterViewController.m; sourceTree = "<group>"; };
+		8005F20E18CAD9AB001059D7 /* DKTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTDetailViewController.h; sourceTree = "<group>"; };
+		8005F20F18CAD9AB001059D7 /* DKTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTDetailViewController.m; sourceTree = "<group>"; };
+		8005F21118CAD9AB001059D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8005F21718CAD9AB001059D7 /* KiwiTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8005F21818CAD9AB001059D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8005F22018CAD9AB001059D7 /* KiwiTesterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiTesterTests-Info.plist"; sourceTree = "<group>"; };
+		8005F22218CAD9AB001059D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8030E4AD18CAF62200BFE9DF /* DKTSampleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTSampleSpec.m; sourceTree = "<group>"; };
+		9DE3FE1AFEDD4295AD754C9F /* libPods-KiwiTesterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiTesterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8005F1ED18CAD9AB001059D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005F1F618CAD9AB001059D7 /* CoreGraphics.framework in Frameworks */,
+				8005F1F818CAD9AB001059D7 /* UIKit.framework in Frameworks */,
+				8005F1F418CAD9AB001059D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8005F21418CAD9AB001059D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005F21918CAD9AB001059D7 /* XCTest.framework in Frameworks */,
+				8005F21B18CAD9AB001059D7 /* UIKit.framework in Frameworks */,
+				8005F21A18CAD9AB001059D7 /* Foundation.framework in Frameworks */,
+				DE4819B184334D859203A1F7 /* libPods-KiwiTesterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8005F1E718CAD9AB001059D7 = {
+			isa = PBXGroup;
+			children = (
+				8005F1F918CAD9AB001059D7 /* KiwiTester */,
+				8005F21E18CAD9AB001059D7 /* KiwiTesterTests */,
+				8005F1F218CAD9AB001059D7 /* Frameworks */,
+				8005F1F118CAD9AB001059D7 /* Products */,
+				59B4240B56D949A09797D7B2 /* Pods-KiwiTesterTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		8005F1F118CAD9AB001059D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8005F1F018CAD9AB001059D7 /* KiwiTester.app */,
+				8005F21718CAD9AB001059D7 /* KiwiTesterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8005F1F218CAD9AB001059D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8005F1F318CAD9AB001059D7 /* Foundation.framework */,
+				8005F1F518CAD9AB001059D7 /* CoreGraphics.framework */,
+				8005F1F718CAD9AB001059D7 /* UIKit.framework */,
+				8005F21818CAD9AB001059D7 /* XCTest.framework */,
+				9DE3FE1AFEDD4295AD754C9F /* libPods-KiwiTesterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8005F1F918CAD9AB001059D7 /* KiwiTester */ = {
+			isa = PBXGroup;
+			children = (
+				8005F20218CAD9AB001059D7 /* DKTAppDelegate.h */,
+				8005F20318CAD9AB001059D7 /* DKTAppDelegate.m */,
+				8005F20518CAD9AB001059D7 /* Main_iPhone.storyboard */,
+				8005F20818CAD9AB001059D7 /* Main_iPad.storyboard */,
+				8005F20B18CAD9AB001059D7 /* DKTMasterViewController.h */,
+				8005F20C18CAD9AB001059D7 /* DKTMasterViewController.m */,
+				8005F20E18CAD9AB001059D7 /* DKTDetailViewController.h */,
+				8005F20F18CAD9AB001059D7 /* DKTDetailViewController.m */,
+				8005F21118CAD9AB001059D7 /* Images.xcassets */,
+				8005F1FA18CAD9AB001059D7 /* Supporting Files */,
+			);
+			path = KiwiTester;
+			sourceTree = "<group>";
+		};
+		8005F1FA18CAD9AB001059D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8005F1FB18CAD9AB001059D7 /* KiwiTester-Info.plist */,
+				8005F1FC18CAD9AB001059D7 /* InfoPlist.strings */,
+				8005F1FF18CAD9AB001059D7 /* main.m */,
+				8005F20118CAD9AB001059D7 /* KiwiTester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8005F21E18CAD9AB001059D7 /* KiwiTesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8030E4AD18CAF62200BFE9DF /* DKTSampleSpec.m */,
+				8005F21F18CAD9AB001059D7 /* Supporting Files */,
+			);
+			path = KiwiTesterTests;
+			sourceTree = "<group>";
+		};
+		8005F21F18CAD9AB001059D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8005F22018CAD9AB001059D7 /* KiwiTesterTests-Info.plist */,
+				8005F22118CAD9AB001059D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8005F1EF18CAD9AB001059D7 /* KiwiTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8005F22818CAD9AC001059D7 /* Build configuration list for PBXNativeTarget "KiwiTester" */;
+			buildPhases = (
+				8005F1EC18CAD9AB001059D7 /* Sources */,
+				8005F1ED18CAD9AB001059D7 /* Frameworks */,
+				8005F1EE18CAD9AB001059D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiTester;
+			productName = KiwiTester;
+			productReference = 8005F1F018CAD9AB001059D7 /* KiwiTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8005F21618CAD9AB001059D7 /* KiwiTesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8005F22B18CAD9AC001059D7 /* Build configuration list for PBXNativeTarget "KiwiTesterTests" */;
+			buildPhases = (
+				F72B5A897ACA4285806E406A /* Check Pods Manifest.lock */,
+				8005F21318CAD9AB001059D7 /* Sources */,
+				8005F21418CAD9AB001059D7 /* Frameworks */,
+				8005F21518CAD9AB001059D7 /* Resources */,
+				2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8005F21D18CAD9AB001059D7 /* PBXTargetDependency */,
+			);
+			name = KiwiTesterTests;
+			productName = KiwiTesterTests;
+			productReference = 8005F21718CAD9AB001059D7 /* KiwiTesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8005F1E818CAD9AB001059D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DKT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Utah Street Labs, Inc.";
+				TargetAttributes = {
+					8005F21618CAD9AB001059D7 = {
+						TestTargetID = 8005F1EF18CAD9AB001059D7;
+					};
+				};
+			};
+			buildConfigurationList = 8005F1EB18CAD9AB001059D7 /* Build configuration list for PBXProject "KiwiTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8005F1E718CAD9AB001059D7;
+			productRefGroup = 8005F1F118CAD9AB001059D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8005F1EF18CAD9AB001059D7 /* KiwiTester */,
+				8005F21618CAD9AB001059D7 /* KiwiTesterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8005F1EE18CAD9AB001059D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005F20A18CAD9AB001059D7 /* Main_iPad.storyboard in Resources */,
+				8005F21218CAD9AB001059D7 /* Images.xcassets in Resources */,
+				8005F20718CAD9AB001059D7 /* Main_iPhone.storyboard in Resources */,
+				8005F1FE18CAD9AB001059D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8005F21518CAD9AB001059D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005F22318CAD9AB001059D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2350A8EBAAB1450386CBBDB7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiTesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72B5A897ACA4285806E406A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8005F1EC18CAD9AB001059D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005F20D18CAD9AB001059D7 /* DKTMasterViewController.m in Sources */,
+				8005F21018CAD9AB001059D7 /* DKTDetailViewController.m in Sources */,
+				8005F20418CAD9AB001059D7 /* DKTAppDelegate.m in Sources */,
+				8005F20018CAD9AB001059D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8005F21318CAD9AB001059D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8030E4AE18CAF62200BFE9DF /* DKTSampleSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8005F21D18CAD9AB001059D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8005F1EF18CAD9AB001059D7 /* KiwiTester */;
+			targetProxy = 8005F21C18CAD9AB001059D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8005F1FC18CAD9AB001059D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8005F1FD18CAD9AB001059D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8005F20518CAD9AB001059D7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8005F20618CAD9AB001059D7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8005F20818CAD9AB001059D7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8005F20918CAD9AB001059D7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8005F22118CAD9AB001059D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8005F22218CAD9AB001059D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8005F22618CAD9AC001059D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8005F22718CAD9AC001059D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8005F22918CAD9AC001059D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTester/KiwiTester-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTester/KiwiTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8005F22A18CAD9AC001059D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTester/KiwiTester-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTester/KiwiTester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8005F22C18CAD9AC001059D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B4240B56D949A09797D7B2 /* Pods-KiwiTesterTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiTester.app/KiwiTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTester/KiwiTester-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KiwiTesterTests/KiwiTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8005F22D18CAD9AC001059D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B4240B56D949A09797D7B2 /* Pods-KiwiTesterTests.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KiwiTester.app/KiwiTester";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KiwiTester/KiwiTester-Prefix.pch";
+				INFOPLIST_FILE = "KiwiTesterTests/KiwiTesterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8005F1EB18CAD9AB001059D7 /* Build configuration list for PBXProject "KiwiTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8005F22618CAD9AC001059D7 /* Debug */,
+				8005F22718CAD9AC001059D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8005F22818CAD9AC001059D7 /* Build configuration list for PBXNativeTarget "KiwiTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8005F22918CAD9AC001059D7 /* Debug */,
+				8005F22A18CAD9AC001059D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8005F22B18CAD9AC001059D7 /* Build configuration list for PBXNativeTarget "KiwiTesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8005F22C18CAD9AC001059D7 /* Debug */,
+				8005F22D18CAD9AC001059D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8005F1E818CAD9AB001059D7 /* Project object */;
+}
