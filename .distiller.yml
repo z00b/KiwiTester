@@ -1,0 +1,6 @@
+deploy:
+  auto:
+    network: testflight
+    list: internal
+    notify: false
+    branch: "master"
