@@ -3,4 +3,4 @@ deploy:
     network: testflight
     list: internal
     notify: false
-    branch: "master"
+    branch: "release-\d+"
