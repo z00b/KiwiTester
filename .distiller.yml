@@ -1,6 +1,0 @@
-deploy:
-  auto:
-    network: testflight
-    list: internal
-    notify: false
-    branch: "release-\\d+"
