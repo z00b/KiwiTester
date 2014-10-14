@@ -5,5 +5,5 @@
 platform :ios, '7.0'
 
 target :KiwiTesterTests, :exclusive => true do
-   pod 'Kiwi/XCTest'
+   pod 'Kiwi', '~> 2.3'
 end
