@@ -1,3 +1,4 @@
 machine:
   pre:
     - brew install redis
+    - sudo touch /etc/something
