@@ -6,12 +6,13 @@ platform :ios, '7.0'
 
 pod 'ReactiveCocoa'
 pod 'AFNetworking'
-pod 'JSONKit'
-pod 'RestKit'
 pod 'SDWebImage'
 pod 'Reachability'
 pod 'MBProgressHUD'
 pod 'MagicalRecord'
+pod 'FlurrySDK'
+pod 'HockeySDK'
+pod 'Analytics'
 
 target :KiwiTesterTests, :exclusive => true do
    pod 'Kiwi', '~> 2.3'
