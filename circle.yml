@@ -1,0 +1,7 @@
+test:
+  pre:
+    - sleep 30:
+      - timeout: 20
+
+  override:
+    - set -o pipefail && xcodebuild -workspace KiwiTester.xcworkspace -scheme 'Kiwi Tester' -destination 'platform=iOS Simulator,name=iPhone 5s,OS=7.1' clean analyze test PROVISIONING_PROFILE= CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= | tee $CIRCLE_ARTIFACTS/xcode_raw.log | xcpretty -c
