@@ -18,4 +18,11 @@ describe(@"Math", ^{
     });
 });
 
+describe(@"Version", ^{
+   it(@"should fail in 7.0", ^{
+       [[UIImage should] respondToSelector:@selector(imageNamed:inBundle:compatibleWithTraitCollection:)];
+   });
+});
+            
+
 SPEC_END
