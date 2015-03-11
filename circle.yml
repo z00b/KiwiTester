@@ -1,0 +1,16 @@
+machine:
+  environment:
+    LC_CTYPE: en_US.UTF-8
+test:
+  override:
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
+        -destination 'platform=iOS Simulator,OS=latest,name=iPhone 6'
+        -workspace KiwiTester.xcworkspace
+        -scheme "Kiwi Tester"
+        clean test |
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
