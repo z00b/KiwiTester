@@ -8,9 +8,9 @@ test:
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
-        -destination 'platform=iOS Simulator,OS=latest,name=iPhone 6'
+        -destination "platform=iOS Simulator,OS=latest,name=iPhone 6"
         -workspace KiwiTester.xcworkspace
         -scheme "Kiwi Tester"
-        clean test |
+        clean build test |
       tee $CIRCLE_ARTIFACTS/xcode_raw.log |
       xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
