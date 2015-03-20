@@ -8,9 +8,19 @@ test:
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
+        -workspace KiwiTester.xcworkspace
+        -scheme "Kiwi Tester"
+        build |
+        tee $CIRCLE_ARTIFACTS/xcode-raw-build.log |
+      xcpretty --color
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
         -destination "platform=iOS Simulator,OS=latest,name=iPhone 6"
         -workspace KiwiTester.xcworkspace
         -scheme "Kiwi Tester"
-        clean build test |
-      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
+        test |
+        tee $CIRCLE_ARTIFACTS/xcode-raw-test.log |
       xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
