@@ -3,6 +3,7 @@ machine:
     LC_CTYPE: en_US.UTF-8
 test:
   override:
+    - xcodebuild -version
     - set -o pipefail &&
       xcodebuild
         CODE_SIGNING_REQUIRED=NO
