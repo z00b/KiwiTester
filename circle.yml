@@ -7,16 +7,13 @@ dependencies:
 test:
   override:
     - xcodebuild -version
-    - set -o pipefail &&
-      xcodebuild
+    - xcodebuild
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
         -workspace KiwiTester.xcworkspace
         -scheme "Kiwi Tester"
-        build |
-        tee $CIRCLE_ARTIFACTS/xcode-raw-build.log |
-      xcpretty --color
+        build
     - set -o pipefail &&
       xcodebuild
         CODE_SIGNING_REQUIRED=NO
