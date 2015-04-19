@@ -1,8 +1,9 @@
 machine:
   environment:
     LC_CTYPE: en_US.UTF-8
-  xcode:
-    version: "6.3"
+dependencies:
+  pre:
+    - sudo xcode-select --switch /Applications/Xcode-6.3.app
 test:
   override:
     - xcodebuild -version
