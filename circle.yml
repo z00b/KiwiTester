@@ -3,7 +3,7 @@ machine:
     LC_CTYPE: en_US.UTF-8
 dependencies:
   pre:
-    - sudo xcode-select --switch /Applications/Xcode-6.3.app
+    - sudo xcode-select --switch /Applications/Xcode-6.3.1.app
 test:
   override:
     - xcodebuild -version
