@@ -1,13 +1,7 @@
 machine:
   environment:
     LC_CTYPE: en_US.UTF-8
-general:
-  artifacts:
-    - junk
 test:
-  pre:
-    - mkdir junk
-    - for x in `seq 1 1000`; do dd if=/dev/zero of=junk/file$x.dat bs=1k seek=4 count=1; done
   override:
     - xcodebuild -version
     - set -o pipefail &&
