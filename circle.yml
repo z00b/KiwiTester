@@ -1,6 +1,9 @@
 machine:
   environment:
     LC_CTYPE: en_US.UTF-8
+dependencies:
+  post:
+    - sudo find /Library/Developer/CoreSimulator/Profiles/Runtimes -name dyld_sim -print0 | xargs -0 sudo chown :wheel
 test:
   override:
     - xcodebuild -version
