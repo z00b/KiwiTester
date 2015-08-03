@@ -2,7 +2,7 @@ machine:
   environment:
     LC_CTYPE: en_US.UTF-8
   xcode:
-    version: "6.4"
+    version: "7.0"
 test:
   override:
     - xcodebuild -version
