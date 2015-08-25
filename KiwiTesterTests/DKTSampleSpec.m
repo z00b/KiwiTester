@@ -8,6 +8,8 @@
 
 #import "Kiwi.h"
 
+@import UIKit;
+
 SPEC_BEGIN(MathSpec)
 
 describe(@"Math", ^{
@@ -15,6 +17,15 @@ describe(@"Math", ^{
         NSUInteger a = 16;
         NSUInteger b = 26;
         [[theValue(a + b) should] equal:theValue(42)];
+    });
+});
+
+describe(@"UI", ^{
+    it(@"should fail", ^{
+        UITextView *tv = [[UITextView alloc] init];
+        NSLog(@"%d", tv.isSelectable);
+        BOOL selectable = tv.isSelectable;
+        [[theValue(selectable) should] equal:theValue(TRUE)];
     });
 });
 
