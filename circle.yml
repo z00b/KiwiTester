@@ -3,9 +3,10 @@ machine:
     LC_CTYPE: en_US.UTF-8
   xcode:
     version: "6.3.1"
-test:
+dependencies:
   pre:
     - cd /Applications/Xcode-6.3.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs && rm iPhoneSimulator.sdk && rm iPhoneSimulator8.3.sdk && ln -s /Users/distiller/simulator-sdks/iPhoneSimulator8.3.sdk iPhoneSimulator.sdk && ln -s iPhoneSimulator.sdk iPhoneSimulator8.3.sdk
+test:
   override:
     - xcodebuild -version
     - set -o pipefail &&
