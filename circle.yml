@@ -3,11 +3,11 @@ machine:
     LC_CTYPE: en_US.UTF-8
   xcode:
     version: "6.3.1"
-dependencies:
-  pre:
-    - cd /Applications/Xcode-6.3.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs &&
-      ln -sf /Users/distiller/simulator-sdks/iPhoneSimulator8.3.sdk iPhoneSimulator.sdk &&
-      ln -sf iPhoneSimulator.sdk iPhoneSimulator8.3.sdk
+# dependencies:
+#   pre:
+#     - cd /Applications/Xcode-6.3.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs &&
+#       ln -sf /Users/distiller/simulator-sdks/iPhoneSimulator8.3.sdk iPhoneSimulator.sdk &&
+#       ln -sf iPhoneSimulator.sdk iPhoneSimulator8.3.sdk
 test:
   override:
     - xcodebuild -version
