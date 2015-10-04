@@ -3,9 +3,6 @@ machine:
     LC_CTYPE: en_US.UTF-8
   xcode:
     version: "7.0"
-dependencies:
-  pre:
-    - ln -s /Users/distiller/simulator-sdks/iPhoneSimulator8.4.sdk /Applications/Xcode-7.0.app//Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/
 test:
   override:
     - xcodebuild -version
