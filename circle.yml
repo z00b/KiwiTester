@@ -11,7 +11,7 @@ test:
         CODE_SIGNING_REQUIRED=NO
         CODE_SIGN_IDENTITY=
         PROVISIONING_PROFILE=
-        -destination "platform=iOS Simulator,OS=9.0,name=iPhone 6"
+        -destination "platform=iOS Simulator,OS=8.4,name=iPhone 6"
         -workspace KiwiTester.xcworkspace
         -scheme "Kiwi Tester"
         clean build test |
