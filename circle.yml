@@ -6,7 +6,7 @@ dependencies:
     - which pod
   post:
     - which pod
-    - pod _0.38.0_ --version || true
+    - bundle exec pod _0.38.0_ --version || true
 
 test:
   override:
