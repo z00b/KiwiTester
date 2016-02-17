@@ -1,6 +1,7 @@
 dependencies:
   pre:
     - pod _0.38.0_ --version || true
+    - sudo sh -c 'echo | gem uninstall --force cocoapods'
     - sudo gem install --no-rdoc --no-ri cocoapods -v 0.38.0
     - pod _0.38.0_ --version || true
     - which pod
