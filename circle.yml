@@ -1,0 +1,5 @@
+dependencies:
+  pre:
+    - pod _0.38.0_ --version || true
+    - sudo gem install --no-rdoc --no-ri cocoapods -v 0.38.0
+    - pod _0.38.0_ --version || true
