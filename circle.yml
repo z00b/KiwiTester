@@ -1,6 +1,7 @@
 dependencies:
   post:
     - which pod
+    - bundle exec which pod
     - bundle exec pod --version || true
 
 test:
