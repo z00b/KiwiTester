@@ -1,0 +1,11 @@
+machine:
+  environment:
+    CCACHE_MAXSIZE: 10G
+    CCACHE_CPP2: true
+    CCACHE_HARDLINK: true
+    CCACHE_LOGFILE: /Users/distiller/ccache.log
+    CC: /usr/local/opt/ccache/libexec/clang
+
+dependencies:
+  pre:
+    - brew update && brew install ccache
