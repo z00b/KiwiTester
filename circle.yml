@@ -4,6 +4,9 @@ machine:
   xcode:
     version: "7.2"
 test:
+  pre:
+    - system_profiler | grep Processor
+    - sysctl -n machdep.cpu.brand_string
   override:
     - xcodebuild -version
     - set -o pipefail &&
