@@ -5,7 +5,8 @@ machine:
     version: "7.2"
 dependencies:
   pre:
-    - brew upgrade && brew update
+    - which brew
+    - /usr/local/bin/brew upgrade && /usr/local/bin/brew update
 test:
   override:
     - xcodebuild -version
