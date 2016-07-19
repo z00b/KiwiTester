@@ -5,7 +5,7 @@ machine:
     version: "7.3"
 dependencies:
   pre:
-    - brew upgrade; brew update; brew upgrade && brew update
+    - brew update; brew update && brew upgrade
 test:
   override:
     - xcodebuild -version
