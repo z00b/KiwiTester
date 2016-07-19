@@ -7,6 +7,7 @@ dependencies:
   pre:
     - which brew
     - brew doctor || true
+    - brew --version
     - /usr/local/bin/brew upgrade
     - /usr/local/bin/brew update
 test:
